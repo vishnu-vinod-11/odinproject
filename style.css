@@ -7,6 +7,7 @@ body {
     font-family: sans-serif;
     background-color:white;
     color: #252525;
+    
 }
 .navbar {
     
@@ -19,6 +20,8 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
 }
 .nav-links {
     display: flex;
@@ -38,3 +41,41 @@ button {
     border-radius: 9px;
     
 }
+h1 {
+    color:#a9792b ;
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+}
+.span-one{
+    color:gray ;
+}
+.span-two {
+    color: gray;
+    display: block;
+}
+
+.span-three {
+    display: block;
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: gray;
+}
+.section1 {
+    text-align: center;
+    padding: 20px;
+}
+.btn {
+    background-color: whitesmoke;
+    padding: 10px;
+color: black;
+margin: 10px;
+}
+:hover .btn {
+    color: #155504;
+}
+
+
+
