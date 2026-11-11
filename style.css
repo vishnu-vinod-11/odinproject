@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background-color:white;
+    color: #252525;
+}
+.navbar {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    
+}
+a {
+    text-decoration: none;
+    color: gray;
+}
+button {
+    background: #155504;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 9px;
+    
+}
